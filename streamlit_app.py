@@ -3,11 +3,15 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 import numpy as np
 import os
+import ntpath
 
 # Get the full path to the model file
 model_path = os.path.join(os.getcwd(), 'animal_classification_model.h5')
+model_path.replace(os.sep,ntpath.sep)
 
-model_path = 'c:\\Users\\SIDHARTH\\Documents\\maths_mini_project\\animal_classification_model.h5'
+print(model_path)
+
+# model_path = 'c:\\Users\\SIDHARTH\\Documents\\maths_mini_project\\animal_classification_model.h5'
 # Load the saved model
 model = tf.keras.models.load_model(model_path)
 
@@ -56,7 +60,7 @@ col1, col2 = st.columns([1, 3])
 
 # Left panel - Model capabilities
 with col1:
-    st.image("c:\\Users\\SIDHARTH\\Documents\\maths_mini_project\\images.png", use_column_width=True)
+    st.image("image.png", use_column_width=True)
     st.title("Model Capabilities")
     st.write("This model can predict the following:")
     st.write(class_labels)
