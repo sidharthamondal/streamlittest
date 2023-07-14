@@ -1,4 +1,4 @@
-1.  Home Page
+## 1.  Home Page ##
 
 ![A screenshot of a computer Description automatically
 generated](vertopal_3b66d7f380694ee7a9136902be9b554a/media/image1.png){width="4.125in"
@@ -14,7 +14,7 @@ Our Model has the capabilities to predict the \"airplane\",
 As we can see that there is a dialogue box with a browse button from
 where we can upload an image and image size can be up to 200Mb per file.
 
-2.  Upload Page:
+## 2.  Upload Page: ##
 
 ![A screenshot of a computer Description automatically
 generated](vertopal_3b66d7f380694ee7a9136902be9b554a/media/image2.png){width="3.95in"
@@ -24,7 +24,7 @@ As we can see once we click on the browse button the Local Files Windows
 pops up from where we can upload an image and check the object for the
 classification process.
 
-3.  Output Page:
+## 3.  Output Page: ##
 
 ![A cat sitting on a ledge Description automatically
 generated](vertopal_3b66d7f380694ee7a9136902be9b554a/media/image3.png){width="4.3629811898512685in"
