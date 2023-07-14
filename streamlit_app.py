@@ -67,7 +67,7 @@ with col1:
 
 # Right panel - Image upload and prediction
 with col2:
-    st.title("Animal Classification")
+    st.title("Object Classification")
     st.write("Upload an image and get a prediction!")
 
     # Image upload section
