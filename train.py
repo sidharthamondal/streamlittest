@@ -65,5 +65,5 @@ loss, accuracy = model.evaluate(x_test, y_test)
 print(f'Test Loss: {loss:.4f}')
 print(f'Test Accuracy: {accuracy:.4f}')
 
-model.save('classification_model.h5')
+model.save('model/classification_model.h5')
 print("Model saved successfully.")
