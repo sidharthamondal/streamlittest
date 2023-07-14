@@ -6,14 +6,9 @@ import os
 import ntpath
 
 # Get the full path to the model file
-model_path = os.path.join(os.getcwd(), 'model/classification_model.h5')
-model_path.replace(os.sep,ntpath.sep)
-
-print(model_path)
-
 # model_path = 'c:\\Users\\SIDHARTH\\Documents\\maths_mini_project\\animal_classification_model.h5'
 # Load the saved model
-model = tf.keras.models.load_model(model_path)
+model = tf.keras.models.load_model( 'model/classification_model.h5')
 
 # Define the labels for prediction
 class_labels = ['airplane', 'automobile', 'bird', 'cat', 'deer',
