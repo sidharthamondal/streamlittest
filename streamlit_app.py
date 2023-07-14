@@ -6,7 +6,7 @@ import os
 import ntpath
 
 # Get the full path to the model file
-model_path = os.path.join(os.getcwd(), 'classification_model.h5')
+model_path = os.path.join(os.getcwd(), 'model/classification_model.h5')
 model_path.replace(os.sep,ntpath.sep)
 
 print(model_path)
@@ -60,7 +60,7 @@ col1, col2 = st.columns([1, 3])
 
 # Left panel - Model capabilities
 with col1:
-    st.image("image.png", use_column_width=True)
+    st.image("Images/image.png", use_column_width=True)
     st.title("Model Capabilities")
     st.write("This model can predict the following:")
     st.write(class_labels)
