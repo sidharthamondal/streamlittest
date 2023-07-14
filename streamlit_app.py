@@ -6,7 +6,7 @@ import os
 import ntpath
 
 # Get the full path to the model file
-model_path = os.path.join(os.getcwd(), 'animal_classification_model.h5')
+model_path = os.path.join(os.getcwd(), 'classification_model.h5')
 model_path.replace(os.sep,ntpath.sep)
 
 print(model_path)
