@@ -27,7 +27,7 @@ The `app.py` file contains the code for a Streamlit web application that allows 
 7. Perform prediction on the uploaded image using the trained model.
 8. Display the predicted label along with the uploaded image.
 
-## How to Use
+## How to use ##
 
 ## 1.  Home Page ##
 
