@@ -1,4 +1,4 @@
-1.  Home Page
+## 1.  Home Page ##
 
 ![A screenshot of a computer Description automatically
 generated](C:\Users\Chirag\Desktop\DL-Maths 2\streamlinetest\streamlittest\Images\01.png)
@@ -13,7 +13,7 @@ Our Model has the capabilities to predict the \"airplane\",
 As we can see that there is a dialogue box with a browse button from
 where we can upload an image and image size can be up to 200Mb per file.
 
-2.  Upload Page:
+## 2. Image Upload : ##
 
 ![A screenshot of a computer Description automatically
 generated](C:\Users\Chirag\Desktop\DL-Maths 2\streamlinetest\streamlittest\Images\02.png)
@@ -22,7 +22,7 @@ As we can see once we click on the browse button the Local Files Windows
 pops up from where we can upload an image and check the object for the
 classification process.
 
-3.  Output Page:
+## 3. Final Output : ##
 
 ![A cat sitting on a ledge Description automatically
 generated](C:\Users\Chirag\Desktop\DL-Maths 2\streamlinetest\streamlittest\Images\03.png)
