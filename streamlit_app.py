@@ -20,7 +20,7 @@ class_labels = ['airplane', 'automobile', 'bird', 'cat', 'deer',
                 'dog', 'frog', 'horse', 'ship', 'truck']
 
 # Configure Streamlit layout
-st.set_page_config(page_title="Animal Classification", layout="wide")
+st.set_page_config(page_title="Object Classification", layout="wide")
 
 # Custom CSS to enhance the appearance
 st.markdown(
